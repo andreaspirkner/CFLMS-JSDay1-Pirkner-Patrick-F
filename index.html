@@ -8,9 +8,24 @@
 
 	<script>
         
-        
+        console.log("Hello from the console");
+		document.write("Hello from the browser");
         
     </script>
+	<script type="text/javascript" src="indexscript.js"><![CDATA[
+    
+    //]]>
+    </script>
+	<script>
+		var age= 25;
+		console.log("and I am "+ age + " years old");
+		
+	</script>
+	
+	<script>
+		var players=["Martin", "Thomas", "Peter", "Mathias", "Niki"];//2 = alle bis Position 2 aus lassen,3 = alle ab Position 3 weg schneiden
+		console.log("The most valuable player of the match is " + players.slice(2,3));
+	</script>
 
 </body>
 </html>
