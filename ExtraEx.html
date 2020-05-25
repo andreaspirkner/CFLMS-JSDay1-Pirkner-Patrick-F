@@ -21,6 +21,30 @@
         
     </script>
 
+    <script type="text/javascript">
+        var input = 2000000;
+        var x = input;
+        var seconds = input%60;
+        var y = seconds;
+        x = ((x-y)/60);
+        var minutes = x%60;
+        y = minutes;
+        x = ((x-y)/60);
+        var hours = x%24;
+        y = hours;
+        x = ((x-y)/24);
+        var days = x%7;
+        y = days;
+        var weeks = (x-y)/7 
+
+
+        document.write("<br>");
+        document.write("<br>");
+
+        document.write(input + " Sekunden entsprechen " + weeks + " Wochen " + days + " Tage " + hours + " Stunden " + minutes + " Minuten " + seconds + " Sekunden");
+
+    </script>
+
 	
 
 </body>
