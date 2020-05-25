@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Challenge accepted</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script type="text/javascript">
+
+		var array1 =	[["Vienna", 0, 0, 0, 0], //0 ist nur ein Platzhalter für die Diagonale
+						[0, "is", 0, 0, 0],
+						[0, 0, "a", 0, 0],
+						[0, 0, 0, "nice", 0],
+						[0, 0, 0, 0, "city"]];
+
+		var array2 =	[array1[0][0],
+						array1[1][1],
+						array1[2][2],
+						array1[3][3],
+						array1[4][4]];
+
+		document.write(array2.join(" "));
+
+	</script>
+
+	<script type="text/javascript">
+		
+		var excercise = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$renderer$as$properties$in$its $HTML$tag.$A$component$cannot$directly$modify$any$properties$passed$to$it,$but$can$be$passed$ callback$functions$that$do$modify$values.$This$mechanism's$promise$is$expressed$as$\"properties $flow$down;$actions$flow$up\"";
+
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+
+		document.write(excercise.split("$").join(" "));
+
+		/* Beispiel
+
+		var input = "Properties,$a$set"
+
+		var output = input.split("e") // ["Prop", "rti", "s,$a$s", "t"]
+
+		var outpu2 = output.join("a") // "Propartias,$a$sat"
+
+		*/
+
+		/*
+
+		var members = ["Patrick", "Hans", "Georg"]
+
+		"The members are " + members.join("and") + "."
+
+		"The members are Patrick and Hans and Georg."
+
+		*/
+
+	</script>
+</body>
+</html>
