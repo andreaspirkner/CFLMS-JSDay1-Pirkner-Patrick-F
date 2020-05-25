@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Intermediate Excercise</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<script type="text/javascript">
+	var carBrands = ["Tesla", "Audi", "Renault", "Volvo", "Mazda", "Fiat", "Ferrari"];
+	console.log(carBrands.sort()); //sortiert Array von A nach Z
+</script>
+<script>
+	var fruits = ["apple", "banana", "kiwi"];
+	fruits.push("orange"); //fügt einen (oder mehrere) Strings, etc. am Ende des Arrays an
+	document.write(fruits);
+	document.write("<br>");
+	fruits.pop(); //löscht einen (oder mehrere) Strings, etc. am Ende des Arrays
+	document.write(fruits);
+	document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+</script>
+<script>
+	var animals = ["monkey", "horse", "dog"];
+	animals.reverse(); //sortiert den Inhalt des Arrays spiegelverkehrt
+	document.write(animals);
+	animals.unshift("cat"); //fügt einen (oder mehrere) Strings, etc. am Beginn des Arrays an
+	document.write("<br>");
+	document.write(animals);
+	document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+</script>
+<script>
+	var fruitString = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
+	var fruitArray = fruitString.split("/");
+	//Gibt jede Frucht in einer einzelnen Zeile aus
+	document.write(fruitArray.join("<br>"));
+</script>
+</body>
+</html>
